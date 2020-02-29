@@ -263,7 +263,6 @@ ul {
 #linkresume {
     text-decoration: none;
     color: #BFB1A0;
-    margin-top: 120px;
     font-size: 14px;
     padding: 10px 15px;
     border: 2px solid #BFB1A0;
@@ -281,16 +280,64 @@ ul {
     display: none;
 }
 
+.maincontent2 {
+    top: 24vh;
+    position: relative;
+    width: 30vw;
+    z-index: 100;
+    margin-left: 10vw;
+    mix-blend-mode: difference;
+}
+
+.maincontent2 h3 {
+    font-weight: 600;
+    font-size: 3em;
+    
+}
+
+.maincontent2 p {
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+.maincontent2 a {
+    font-weight: 600;
+    color: #BFB1A0;
+}
 
 @media only screen 
 and (max-device-width: 660px) 
 and (-webkit-min-device-pixel-ratio: 2) {     /* smartphones, iPhone, portrait 480x320 phones */ 
 
+    .content__item-title {
+        font-size: 0.6em;
+    }
 
+    .content{
+        margin-top: 470px;
+    }
 
   .maincontent2 {
-      width: 100vw;
+    top: 20vh;
+    width: 63vw;
+    z-index: 100;
+    position: fixed;
+    mix-blend-mode: exclusion;
 }
+
+
+.maincontent2 h3 {
+    font-size: 1.4em;
+    
+}
+
+.maincontent2 p {
+    font-weight: 400;
+    font-size: 0.8em;
+
+}
+
     nav ul {
         bottom: 0px;
         top: 15px;
