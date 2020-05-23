@@ -19,7 +19,7 @@ body {
 .page {
 	display: grid;
 	padding: 0;
-	max-width: 1400px;
+	max-width: 2600px;
 	grid-template-columns: 100%;
 	grid-template-areas: 'grid';
 	will-change: transform;
